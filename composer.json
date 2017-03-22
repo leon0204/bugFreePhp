@@ -1,0 +1,21 @@
+{
+    "name": "leon/bugfree",
+    "description": "佛祖保佑，永无bug!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leon0204",
+            "email": "leon0204yo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php" : ">=5.5.0"
+	},
+    "autoload":{
+	"psr-4":{
+	    "Foo\\Utils\\":"src/Foo/Utils",
+	    "Foo\\Configs\\" : "src/Foo/Configs"
+	}
+    }	
+}
