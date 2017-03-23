@@ -11,8 +11,8 @@
     
     use BugFree\Utils as Utils;
     
-    // add note for filepath :)   
-    $res = Utils\AddNote::bugfree($filepath);
+        // add note for filepath :)   
+        $res = Utils\AddNote::bugfree($filepath);
 
 
 ## 注意
