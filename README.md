@@ -4,13 +4,15 @@
 
 # 使用方法 
 ## composer 引入 
-## composer require leon0204/bugfree dev-master 
+ 
+    composer require leon0204/bugfree dev-master 
 
 ## 在文件中引入 
     
     use BugFree\Utils as Utils;
     
     // 添加护佑 :)   
+    
     $res = Utils\AddNote::bugfree($filepath);
 
 
