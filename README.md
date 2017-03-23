@@ -3,15 +3,15 @@
 
 
 # 使用方法 
-## composer 引入 
+## 1.composer 引入 
  
     composer require leon0204/bugfree dev-master 
 
-## 在文件中引入 
+## 2.在文件中引入 
     
     use BugFree\Utils as Utils;
     
-## 为filepath添加佛祖庇护：） 
+## 3.为filepath添加佛祖庇护：） 
     
     $res = Utils\AddNote::bugfree($filepath);
     
