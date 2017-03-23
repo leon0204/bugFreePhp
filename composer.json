@@ -14,8 +14,7 @@
 	},
     "autoload":{
 	"psr-4":{
-	    "Foo\\Utils\\":"src/Foo/Utils",
-	    "Foo\\Configs\\" : "src/Foo/Configs"
+	"BugFree\\" : "src/"
 	}
     }	
 }
